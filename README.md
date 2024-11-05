@@ -1,9 +1,7 @@
-# MindMap
-## Zihin Haritası Nedir?
-Zihin Haritası, kişinin belirlediği girdilere göre dinamik yol haritası oluşturmaya yarayan görselleştirme tekniğidir. R programlama dili zihin haritası için **mindr** kütüphanesi ile görselleştirme imkanı sunar. R’da zihin haritası oluşturacak fonksiyonun 
-içerisinde yer alan from parametresinin aldığı input yapısı aşağıdaki gibidir.
-  * ##### # Katman 1.1,## Katman 2.1,### Katman 3.1,## Katman 2.2,# Katman 1.2
- NOT: '#' işaretinin sayısı inputların katmanlarını ifade etmektedir. 
+A Mind Map is a visualization technique that helps create a dynamic roadmap based on the inputs provided by the user. In R programming, the mindr package offers tools for visualizing mind maps. The input structure for the from parameter within the function that generates a mind map in R is as follows:
+
+# Layer 1.1, ## Layer 2.1, ### Layer 3.1, ## Layer 2.2, # Layer 1.2
+Note: The number of # symbols represents the depth level of each input.
 
 ![image](https://user-images.githubusercontent.com/61660262/141678841-ed475b84-c5ef-43f1-8aa7-541d2ef414c2.png)
 
