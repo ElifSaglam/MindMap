@@ -6,7 +6,7 @@ require(mindr)
 ### text input ####
 title <- "Machine Learning"
 text <- "# Supervised Learning,## Classification,### Decision Trees,### SVM,### Logistic Regression,### Navie Bayes,### K-NN,## Regression,### Ridge/Lasso,### Linear,### Polynomial,# Unsupervised Learning,## Clustering,### Fuzzy C-Means,### K-Means,## Associlation Rule,### Apriori,### Eudat,### FP Growth,# Ensemble Learning,## Bagging,### Random Forest,## Boosting,### XGBoost,### AdaBoost,### LightGBM,### CatBoost,# Neural Networks and Deep Learning,## CNN,## RNN,## GAN"
-      # NOT: mm fonksiyonu içerisinde yer alan from parametresi (# katman1,## katman1.1,## katman1.2,# katman2,## katman2.1,# katman3) mantığında çalışmaktadır.
+      
 mindmap_text <- c(text)
 mindmap_text <- as.character(mindmap_text)
 mindmap_text <- as.list(strsplit(mindmap_text, ",")[[1]])
